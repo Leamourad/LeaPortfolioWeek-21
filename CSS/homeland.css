@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+    font-family: Avenir;
+}
+.navbar {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    flex-direction:row ;
+    background-color: white;
+    font-size: 20px;
+    margin: 20px;
+  
+}
+   
+li{
+    list-style: none;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 2px;
+    position: relative;
+}
+a {
+    color: black;
+    font-style: normal;
+    font-size: 20px;
+    text-decoration: none;
+
+}
+
